@@ -1,0 +1,23 @@
+:host {
+  div {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    align-items: center;
+
+    ion-avatar {
+      height: 10rem;
+      width: 10rem;
+    }
+
+    ion-card {
+      width: 20vw;
+      img {
+        width: 100%;
+      }
+      @media (orientation: portrait) {
+        width: 95vw;
+      }
+    }
+  }
+}
